@@ -1,0 +1,27 @@
+.errorBg {
+  text-align: center;
+
+  color: #f2f2f2;
+  font-size: 4rem;
+  padding-bottom: 20rem;
+  padding-top: 5rem;
+  background: url("https://images.unsplash.com/photo-1534269222346-5a896154c41d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.errorBg a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.errorBg a:hover {
+  color: #ff8400;
+  text-decoration: none;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+}

@@ -1,0 +1,26 @@
+.abox {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 4px;
+}
+
+.abox :hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 5px #222222;
+}
+
+@media screen and (min-width: 50em) {
+  .abox {
+    width: calc(33% - 6px);
+  }
+
+  .abox:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+}
+
+.title {
+  color: #ff7400;
+}

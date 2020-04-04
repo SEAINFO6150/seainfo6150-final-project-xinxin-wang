@@ -1,0 +1,230 @@
+.CommentContainer {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+  padding: 10px auto;
+}
+
+.comment input {
+  font-size: 1.3rem;
+  width: 30rem;
+  height: 10rem;
+}
+.commentOther input {
+  font-size: 1.3rem;
+  width: 30rem;
+  height: 2rem;
+}
+
+.commentOther button {
+  font-size: 1.2rem;
+  width: 30rem;
+  height: 2rem;
+}
+
+.registrationForm {
+  display: block;
+  width: 50%;
+  padding: 50px auto auto auto;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+}
+
+.formRow {
+  display: block;
+  margin-left: -12px;
+  margin-right: -12px;
+  box-sizing: border-box;
+}
+
+.formCol {
+  display: block;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.formTitle {
+  display: block;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.formTitle h4 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.2;
+}
+
+.textForm {
+  margin: 0;
+}
+
+/* .userNameRow {
+} */
+.userNameLeftCol {
+  display: block;
+  width: 50%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.userNameLeftCol label {
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  max-width: 100%;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.userNameLeftCol input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.userNameRightCol {
+  display: block;
+  width: 50%;
+  float: right;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.userNameRightCol label {
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  max-width: 100%;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.userNameRightCol input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.email {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.email input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.email a {
+  display: block;
+  margin-top: 2rem;
+  background-color: #222222;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #f2f2f2;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+.email a:hover {
+  color: #ff8400;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+}
+
+.commentArea {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.commentArea input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 5rem 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}

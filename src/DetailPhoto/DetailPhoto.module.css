@@ -1,0 +1,15 @@
+.detailPhotoContainer {
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.author {
+  text-align: right;
+}
+
+.blogAddress {
+  text-decoration: none;
+  color: #ff8400;
+}
+
+.blogAddress:hover {
+  color: #222222;
+}

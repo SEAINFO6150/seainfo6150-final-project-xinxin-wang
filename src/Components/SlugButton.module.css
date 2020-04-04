@@ -1,0 +1,10 @@
+.slugButton {
+  font-size: 110%;
+  color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 200px;
+}

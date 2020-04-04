@@ -1,0 +1,224 @@
+.registrationContainer {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.leftPanel {
+  background-image: url(https://images.unsplash.com/photo-1536431311719-398b6704d4cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  flex: 1;
+  color: #f2f2f2;
+}
+.rightPanel {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 80px 8% 20px;
+  flex-basis: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #222222;
+}
+
+.registration_contant {
+  display: flex;
+  padding: 8% 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco",
+    "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial,
+    sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  position: relative;
+  z-index: 10;
+  height: 90%;
+  overflow-y: scroll;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.registrationForm {
+  width: 100;
+  display: block;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+}
+
+.formRow {
+  display: block;
+  margin-left: -12px;
+  margin-right: -12px;
+  box-sizing: border-box;
+}
+
+.formCol {
+  display: block;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.formTitle {
+  display: block;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.formTitle h4 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.2;
+}
+
+.textForm {
+  margin: 0;
+}
+
+/* .userNameRow {
+} */
+.userNameLeftCol {
+  display: block;
+  width: 50%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.userNameLeftCol label {
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  max-width: 100%;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.userNameLeftCol input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.userNameRightCol {
+  display: block;
+  width: 50%;
+  float: right;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.userNameRightCol label {
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  max-width: 100%;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.userNameRightCol input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.email {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.email input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #111111;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.email a {
+  display: block;
+  margin-top: 2rem;
+  background-color: #222222;
+  width: 100%;
+  height: 40px;
+  padding: 6px 0;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #f2f2f2;
+  background-image: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  font-family: inherit;
+  letter-spacing: inherit;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+.email a:hover {
+  color: #ff8400;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+}

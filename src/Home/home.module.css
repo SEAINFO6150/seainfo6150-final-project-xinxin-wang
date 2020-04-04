@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+.container {
+  margin: 0;
+}
+.container h1 {
+  border-bottom: #f2f2f2f2;
+  border-bottom: solid;
+}
+.jumbotron {
+  margin: 0;
+  position: relative;
+  padding-bottom: 50rem;
+  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2553&q=80");
+  background-repeat: no-repeat;
+
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+}
+.jumbotronText {
+  position: absolute;
+  bottom: 1rem;
+  padding: 10px 20px 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f2f2f2;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.aContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: rgba(0, 0, 0, 0);
+  margin-left: 2rem;
+}
+
+.imageBox {
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.imageBox a {
+  display: flex;
+  justify-content: center;
+}
+
+.imageBox a {
+  width: 90%;
+}
+
+.aContainer :hover {
+  color: #f2f2f2;
+  transform: scale(1.05);
+}
+
+.imageBox span {
+  position: absolute;
+  left: 30%;
+  bottom: 45%;
+  font-size: 4rem;
+}

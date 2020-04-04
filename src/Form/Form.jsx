@@ -4,11 +4,11 @@ export default class Form extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      submittedForm: null
+      submittedForm: null,
     };
   }
 
-  onSubmit = async e => {
+  onSubmit = async (e) => {
     e.preventDefault();
     const data = new FormData(e.target);
     this.setState({ submittedForm: data });
@@ -20,7 +20,7 @@ export default class Form extends Component {
     ) : (
       <form onSubmit={this.onSubmit}>
         <input type="text" name="myText" />
-        <input type="submit" value="Send it" />
+        <input type="submit" value="Search" />
       </form>
     );
   }
