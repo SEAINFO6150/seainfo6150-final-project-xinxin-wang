@@ -5,7 +5,7 @@ import BlogImage from "../Components/BlogImage";
 const BlogListItem = (props) => {
   const link = "/detailBlog/" + props.blog.blogId;
   return (
-    <div className={styles.container}>
+    <div className={styles.blogListItemContainer}>
       <div className={styles.blogImg}>
         <BlogImage blog={props.blog} />
       </div>

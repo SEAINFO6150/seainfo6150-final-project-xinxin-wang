@@ -12,4 +12,7 @@
 
 .blogAddress:hover {
   color: #222222;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
 }

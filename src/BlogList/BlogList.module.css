@@ -1,25 +1,26 @@
-.container {
+.blogListContainer {
   display: grid;
   grid-template-columns: auto auto auto;
   list-style: none;
   margin: 10px;
   background: white;
-  align-self: stretch;
+  width: 99%;
 }
 
-.li {
-  height: 100%;
-  width: 100%;
+@media (min-width: 300px) {
+  .blogListContainer {
+    grid-template-columns: auto;
+  }
 }
 
 @media (min-width: 600px) {
-  .container {
+  .blogListContainer {
     grid-template-columns: auto auto;
   }
 }
 
 @media (min-width: 1000px) {
-  .container {
+  .blogListContainer {
     grid-template-columns: auto auto auto;
   }
 }

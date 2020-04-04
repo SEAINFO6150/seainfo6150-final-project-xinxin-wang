@@ -5,7 +5,7 @@ import styles from "./BlogList.module.css";
 
 const BlogList = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.blogListContainer}>
       {props.blogs.map((blog) => {
         if (props.categoryId === "*") {
           return <BlogListItem blog={blog} key={blog.title} />;

@@ -3,11 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import styles from "./App.module.css";
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
 import Photos from "./Photos/Photos.jsx";
 import Blogs from "./Blogs/Blogs.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Activities from "./Activities/Activities.jsx";
 import SignUp from "./Support/SignUp.jsx";
@@ -15,15 +12,8 @@ import AboutUs from "./Support/AboutUs.jsx";
 import DetailBlog from "./DetailBlog/DetailBlog.jsx";
 import DetailPhoto from "./DetailPhoto/DetailPhoto.jsx";
 
-// import iconWechat from "./data/icons/wechat.png";
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
-const externalContent = {
-  id: "article-1",
-  title: "An blog",
-  author: "Stephen",
-  text: "hiking in the mountains",
-};
 
 function App() {
   return (
@@ -46,21 +36,6 @@ function App() {
             <li>
               <Link to="/blogs">Blogs</Link>
             </li>
-            {/* <li>
-              <Link to="/foo">Foo</Link>
-            </li> */}
-            {/* <li>
-              <Link to="/bar/hats/sombrero">Bar</Link>
-            </li>
-            <li>
-              <Link to="/detailBlog/hats/sombrero">DetailBlog</Link>
-            </li>
-            <li>
-              <Link to="/detailPhoto/hats/sombrero">DetailPhoto</Link>
-            </li> */}
-            {/* <li>
-              <Link to="/baz">Baz</Link>
-            </li> */}
 
             <li>
               <Link to="/activities/*">Activities</Link>
@@ -83,24 +58,12 @@ function App() {
               <Activities categoryId={match.params.categoryId} />
             )}
           />
-          <Route path="/foo" exact component={Foo} />
           <Route path="/photos" exact component={Photos} />
           <Route path="/blogs" exact component={Blogs} />
           <Route path="/signUp" exact component={SignUp} />
           <Route path="/aboutUs" exact component={AboutUs} />
           {/* passing parameters via a route path */}
-          <Route
-            path="/bar/:categoryId/:productId"
-            exact
-            render={({ match }) => (
-              // getting the parameters from the url and passing
-              // down to the component as props
-              <Bar
-                categoryId={match.params.categoryId}
-                productId={match.params.productId}
-              />
-            )}
-          />
+
           <Route
             path="/detailBlog/:blogId"
             exact
@@ -118,11 +81,6 @@ function App() {
               // down to the component as props
               <DetailPhoto blogId={match.params.blogId} />
             )}
-          />
-          <Route
-            path="/baz"
-            exact
-            render={() => <Baz content={externalContent} />}
           />
 
           <Route component={Error} />

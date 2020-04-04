@@ -10,10 +10,6 @@ const PhotoListItem = (props) => {
       <a href={link}>
         <BlogImage blog={props.blog} />
       </a>
-
-      {/* <div className={styles.title}>
-          <span>{props.blog.title}</span>
-        </div> */}
     </div>
   );
 };
