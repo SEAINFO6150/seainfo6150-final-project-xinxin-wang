@@ -228,3 +228,24 @@
   letter-spacing: inherit;
   margin: 0;
 }
+
+.radioContainer {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+
+.radioContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.labelContainer {
+  padding-right: 8rem;
+}

@@ -27,7 +27,7 @@ const SignUp = () => {
               <div className={styles.formTitle}>
                 <h4>Join Us Now</h4>
               </div>
-              <div className={styles.textForm}>
+              <form className={styles.textForm}>
                 <div className={styles.userNameRow}>
                   <div className={styles.userNameLeftCol}>
                     <label>First Name</label>
@@ -39,21 +39,27 @@ const SignUp = () => {
                   </div>
                   <div className={styles.email}>
                     <label>Email Address</label>
-                    <input type="text" />
+                    <input type="email" required />
                   </div>
                   <div className={styles.email}>
                     <label>Username</label>
-                    <input type="text" />
+                    <input
+                      type="text"
+                      required
+                      pattern="[a-z]{5,12}"
+                      title="5 to 12 lowercase letters"
+                    />
                   </div>
                   <div className={styles.email}>
                     <label>Password</label>
-                    <input type="text" />
+                    <input type="text" required />
                   </div>
                   <div className={styles.email}>
-                    <a href="/SignUp">Join</a>
+                    {/* <a href="/SignUp">Join</a> */}
+                    <button>Join</button>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

@@ -33,13 +33,14 @@ body {
   list-style: none;
 }
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 .dropdownContent {
-  margin-left: -1rem;
+  margin-top: 3rem;
+
   /* padding-bottom: 1rem; */
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   /* padding-left: 1rem; */
   display: none;
   position: absolute;
