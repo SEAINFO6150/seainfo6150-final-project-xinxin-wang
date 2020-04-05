@@ -7,6 +7,9 @@ body {
 .container h1 {
   border-bottom: #f2f2f2f2;
   border-bottom: solid;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .jumbotron {
   margin: 0;
@@ -14,8 +17,6 @@ body {
   padding-bottom: 50rem;
   background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2553&q=80");
   background-repeat: no-repeat;
-
-  /* background-attachment: fixed; */
   background-size: 100% 100%;
 }
 .jumbotronText {
@@ -47,17 +48,20 @@ body {
 }
 
 .imageBox a {
-  width: 90%;
+  width: 95%;
 }
 
-.aContainer :hover {
+.aContainer :hover span {
   color: #f2f2f2;
-  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .imageBox span {
+  padding: 3rem;
   position: absolute;
-  left: 30%;
-  bottom: 45%;
+  left: 20%;
+  bottom: 25%;
   font-size: 4rem;
+  /* background-color: red; */
+  text-align: center;
 }
