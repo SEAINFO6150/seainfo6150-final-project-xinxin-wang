@@ -55,17 +55,17 @@ export default class Form extends Component {
             <div>
               <label className={styles.labelContainer}>
                 Good
-                <input type="radio" defaultChecked />
+                <input type="radio" defaultChecked name="radio" />
               </label>
 
               <label className={styles.labelContainer}>
                 Great
-                <input type="radio" />
+                <input type="radio" name="radio" />
               </label>
 
               <label className={styles.labelContainer}>
                 Perfect
-                <input type="radio" />
+                <input type="radio" name="radio" />
               </label>
             </div>
           </div>
@@ -73,15 +73,9 @@ export default class Form extends Component {
             <label>Why?</label>
             <div>
               <select className={styles.dropDown}>
-                <option value="1" name="radio">
-                  Photography Technique
-                </option>
-                <option value="2" name="radio">
-                  My Favorite Activity
-                </option>
-                <option value="3" name="radio">
-                  Don't Know, Just Like It!
-                </option>
+                <option value="1">Photography Technique</option>
+                <option value="2">My Favorite Activity</option>
+                <option value="3">Don't Know, Just Like It!</option>
               </select>
             </div>
             <h5> </h5>
@@ -89,15 +83,9 @@ export default class Form extends Component {
 
             <div>
               <select className={styles.dropDown}>
-                <option value="1" name="radio">
-                  Yes!
-                </option>
-                <option value="2" name="radio">
-                  Maybe!
-                </option>
-                <option value="3" name="radio">
-                  No!
-                </option>
+                <option value="1">Yes!</option>
+                <option value="2">Maybe!</option>
+                <option value="3">No!</option>
               </select>
             </div>
           </div>
