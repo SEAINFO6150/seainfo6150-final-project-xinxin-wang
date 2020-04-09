@@ -6,7 +6,7 @@ const Blogs = () => {
   return (
     <div>
       <div>
-        <h1>The blogs page</h1>
+        <h1>Welcome To The Blogs Page</h1>
       </div>
       <div className="BlogList">
         <BlogList blogs={Object.values(blogs)} categoryId="*" />

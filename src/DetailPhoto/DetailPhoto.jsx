@@ -14,8 +14,9 @@ const DetailPhoto = (props) => {
         <h2 className={styles.author}>
           {blogs[props.blogId].author} - {blogs[props.blogId].pubYear}
         </h2>
+        <h2>Want To Read The Story Behind This Photo?</h2>
         <a className={styles.blogAddress} href={link}>
-          <h1>{blogs[props.blogId].title}</h1>
+          <h1>Click Here! {blogs[props.blogId].title}</h1>
         </a>
       </div>
       <Comments />

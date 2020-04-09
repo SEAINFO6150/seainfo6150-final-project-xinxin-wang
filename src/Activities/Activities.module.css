@@ -18,6 +18,11 @@
   background-color: #f2f2f2;
 }
 
+.tabcontentSelected a {
+  text-decoration: none;
+  color: #222222;
+}
+
 .tabcontent {
   flex: auto;
   margin: 0;
@@ -25,7 +30,13 @@
   border-right: #f2f2f2;
   border: solid;
 }
+.tabcontent a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
 
 .tabcontent h1:hover {
   color: #ff8400;
 }
+
+

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SignUp.module.css";
+import SignupForm from "../SighupForm/SignupForm.jsx";
 
 const SignUp = () => {
   return (
@@ -27,39 +28,8 @@ const SignUp = () => {
               <div className={styles.formTitle}>
                 <h4>Join Us Now</h4>
               </div>
-              <form className={styles.textForm}>
-                <div className={styles.userNameRow}>
-                  <div className={styles.userNameLeftCol}>
-                    <label>First Name</label>
-                    <input type="text" />
-                  </div>
-                  <div className={styles.userNameRightCol}>
-                    <label>Last Name</label>
-                    <input type="text" />
-                  </div>
-                  <div className={styles.email}>
-                    <label>Email Address</label>
-                    <input type="email" required />
-                  </div>
-                  <div className={styles.email}>
-                    <label>Username</label>
-                    <input
-                      type="text"
-                      required
-                      pattern="[a-z]{5,12}"
-                      title="5 to 12 lowercase letters"
-                    />
-                  </div>
-                  <div className={styles.email}>
-                    <label>Password</label>
-                    <input type="text" required />
-                  </div>
-                  <div className={styles.email}>
-                    {/* <a href="/SignUp">Join</a> */}
-                    <button>Join</button>
-                  </div>
-                </div>
-              </form>
+
+              <SignupForm></SignupForm>
             </div>
           </div>
         </div>
