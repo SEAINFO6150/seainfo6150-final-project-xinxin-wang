@@ -11,11 +11,13 @@ const DetailBlog = (props) => {
       <a className={styles.detailA} href={link}>
         <img src={blogs[props.blogId].image._url} alt="" />
       </a>
+      <strong>
+        <p>Click The Photo To See The High Resolution Photo!</p>
+      </strong>
       <p>{blogs[props.blogId].text}</p>
       <h3>
         {blogs[props.blogId].author} - {blogs[props.blogId].pubYear}
       </h3>
-
       <Comments />
     </div>
   );

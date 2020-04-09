@@ -8,26 +8,38 @@ const Activities = (props) => {
     <div>
       <div className={styles.categoryContainer}>
         <div className={styles.tabcontentSelected}>
-          <h1>Hunting</h1>
+          <a href="/activities/hunting">
+            <h1>Hunting</h1>
+          </a>
         </div>
 
         <div className={styles.tabcontent}>
-          <h1>Fishing</h1>
+          <a href="/activities/fishing">
+            <h1>Fishing</h1>
+          </a>
         </div>
 
         <div className={styles.tabcontent}>
-          <h1>Kayaking</h1>
+          <a href="/activities/kayaking">
+            <h1>Kayaking</h1>
+          </a>
         </div>
 
         <div className={styles.tabcontent}>
-          <h1>Hiking</h1>
+          <a href="/activities/hiking">
+            <h1>Hiking</h1>
+          </a>
         </div>
         <div className={styles.tabcontent}>
-          <h1>Skiing</h1>
+          <a href="/activities/skiing">
+            <h1>Skiing</h1>
+          </a>
         </div>
 
         <div className={styles.tabcontent}>
-          <h1>Cycling</h1>
+          <a href="/activities/cycling">
+            <h1>Cycling</h1>
+          </a>
         </div>
       </div>
       <div>

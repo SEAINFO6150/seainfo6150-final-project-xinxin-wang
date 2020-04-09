@@ -36,10 +36,30 @@ function App() {
             <li>
               <Link to="/blogs">Blogs</Link>
             </li>
-
-            <li>
+            <div className={styles.dropdown}>
               <Link to="/activities/*">Activities</Link>
-            </li>
+
+              <div className={styles.dropdownContent}>
+                <li>
+                  <Link to="/activities/hunting">Hunting</Link>
+                </li>
+                <li>
+                  <Link to="/activities/fishing">Fishing</Link>
+                </li>
+                <li>
+                  <Link to="/activities/kayaking">kayaking</Link>
+                </li>
+                <li>
+                  <Link to="/activities/hiking">Hiking</Link>
+                </li>
+                <li>
+                  <Link to="/activities/skiing">Skiing</Link>
+                </li>
+                <li>
+                  <Link to="/activities/cycling">Cycling</Link>
+                </li>
+              </div>
+            </div>
           </ul>
         </nav>
       </header>
